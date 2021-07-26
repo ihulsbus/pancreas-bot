@@ -38,10 +38,10 @@ func guildCreate(s *discordgo.Session, event *discordgo.GuildCreate) {
 
 	for _, channel := range event.Guild.Channels {
 		if channel.ID == event.Guild.ID {
-			_, err := s.ChannelMessageSend(channel.ID, "Your meal is here. Greet people with !hey <username>")
-			if err != nil {
-				log.Errorln("Error sending message: %v", err)
-			}
+			// _, err := s.ChannelMessageSend(channel.ID, "Your meal is here. Greet people with !hey <username>")
+			// if err != nil {
+				// log.Errorln("Error sending message: %v", err)
+			// }
 			return
 		}
 	}
