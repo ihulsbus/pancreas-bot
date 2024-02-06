@@ -7,5 +7,5 @@ require (
 	github.com/gorilla/websocket v1.4.2 // indirect
 	github.com/sirupsen/logrus v1.8.1
 	github.com/spf13/viper v1.8.0
-	golang.org/x/crypto v0.1.0 // indirect
+	golang.org/x/crypto v0.17.0 // indirect
 )
